@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
 
-export const useAllNewsStore = defineStore("all-news", () => {
+export const useAllNewsStore = defineStore("all-news-entertainment", () => {
   const data = ref([
     {
       source: {

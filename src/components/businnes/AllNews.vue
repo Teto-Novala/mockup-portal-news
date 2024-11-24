@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-4 flex flex-col gap-y-14 items-center">
+  <section class="pt-10 flex flex-col gap-y-14 items-center">
     <NewsCard
       v-for="(list, index) in store.dataFormated"
       :key="index"
