@@ -24,6 +24,11 @@ const router = createRouter({
       name: "health",
       component: () => import("../views/HealthView.vue"),
     },
+    {
+      path: "/science",
+      name: "science",
+      component: () => import("../views/ScienceView.vue"),
+    },
   ],
 });
 
