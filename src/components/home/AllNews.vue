@@ -41,7 +41,7 @@
 </template>
 
 <script setup>
-import { useAllNewsStore } from "@/stores/allNewsStore";
+import { useAllNewsStore } from "@/stores/businnes/allNewsStore";
 import NewsCard from "./NewsCard.vue";
 import { computed, ref } from "vue";
 const store = useAllNewsStore();

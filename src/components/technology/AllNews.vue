@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { useAllNewsStore } from "@/stores/businnes/allNewsStore";
+import { useAllNewsStore } from "@/stores/technology/allNewsStore";
 import NewsCard from "./NewsCard.vue";
 
 const store = useAllNewsStore();
