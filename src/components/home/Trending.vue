@@ -5,11 +5,11 @@
       :alt="store.data.title"
       class="w-1/2 object-cover object-center"
     />
-    <div class="w-1/2">
-      <h1>Trending</h1>
-      <h2>{{ store.data.title }}</h2>
+    <div class="w-1/2 font-poppins flex flex-col gap-y-4">
+      <h1 class="text-red-500 font-semibold">Trending</h1>
+      <h2 class="font-ibm font-bold text-xl">{{ store.data.title }}</h2>
       <p>{{ store.data.description }}</p>
-      <div>
+      <div class="flex items-center gap-x-5 text-sm">
         <p>{{ store.formattedPublishedAt }}</p>
         <p>{{ store.data.author }}</p>
       </div>
