@@ -15,13 +15,6 @@
       >
         <RouterLink :to="list.route">{{ list.name }}</RouterLink>
       </li>
-      <li>
-        <input
-          type="text"
-          placeholder="Search"
-          class="outline-none border border-slate-300 rounded-lg px-2 py-1"
-        />
-      </li>
     </ul>
   </nav>
 </template>

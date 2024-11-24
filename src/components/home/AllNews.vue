@@ -13,6 +13,7 @@
         :desc="list.description"
         :publish="list.publishedAt"
         :author="list.author"
+        :route="list.route"
       />
     </div>
     <div
@@ -27,6 +28,7 @@
         :desc="list.description"
         :publish="list.publishedAt"
         :author="list.author"
+        :route="list.route"
       />
     </div>
     <div class="pt-10 w-full text-center">

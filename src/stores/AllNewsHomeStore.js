@@ -4,6 +4,7 @@ import { computed, ref } from "vue";
 export const useAllNewsStore = defineStore("all-news-home", () => {
   const data = ref([
     {
+      route: "/businnes/0",
       source: {
         id: "the-verge",
         name: "The Verge",
@@ -26,6 +27,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/businnes/1",
       source: {
         id: "associated-press",
         name: "Associated Press",
@@ -52,6 +54,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/businnes/2",
       source: {
         id: "nbc-news",
         name: "NBC News",
@@ -99,6 +102,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/businnes/3",
       source: {
         id: null,
         name: "Minneapolis Star Tribune",
@@ -123,6 +127,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/businnes/4",
       source: {
         id: null,
         name: "Investopedia",
@@ -145,6 +150,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/entertainment/0",
       source: {
         id: "cnn",
         name: "CNN",
@@ -170,6 +176,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/entertainment/1",
       source: {
         id: null,
         name: "Rolling Stone",
@@ -198,6 +205,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/entertainment/2",
       source: {
         id: null,
         name: "Hindustan Times",
@@ -227,6 +235,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/entertainment/3",
       source: {
         id: null,
         name: "SFGate",
@@ -254,6 +263,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/entertainment/4",
       source: {
         id: "associated-press",
         name: "Associated Press",
@@ -293,6 +303,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/health/0",
       source: {
         id: null,
         name: "Medical Xpress",
@@ -321,6 +332,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/health/1",
       source: {
         id: null,
         name: "Decrypt",
@@ -354,6 +366,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/health/2",
       source: {
         id: null,
         name: "KSDK.com",
@@ -385,6 +398,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/health/3",
       source: {
         id: null,
         name: "KSL.com",
@@ -411,6 +425,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/health/4",
       source: {
         id: null,
         name: "Gizmodo.com",
@@ -434,6 +449,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/science/0",
       source: {
         id: null,
         name: "Thedodo.com",
@@ -467,6 +483,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/science/1",
       source: {
         id: null,
         name: "Phys.Org",
@@ -499,6 +516,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/science/2",
       source: {
         id: null,
         name: "Live Science",
@@ -527,6 +545,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/science/3",
       source: {
         id: null,
         name: "KSAT San Antonio",
@@ -548,6 +567,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/science/4",
       source: {
         id: null,
         name: "Live Science",
@@ -574,6 +594,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/sports/0",
       source: {
         id: null,
         name: "Formula 1",
@@ -600,6 +621,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/sports/1",
       source: {
         id: null,
         name: "New York Post",
@@ -639,6 +661,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/sports/2",
       source: {
         id: "espn",
         name: "ESPN",
@@ -661,6 +684,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/sports/3",
       source: {
         id: null,
         name: "Deseret News",
@@ -686,6 +710,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/sports/4",
       source: {
         id: null,
         name: "MLB Trade Rumors",
@@ -707,6 +732,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/technology/0",
       source: {
         id: null,
         name: "Wccftech",
@@ -732,6 +758,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/technology/1",
       source: {
         id: "techcrunch",
         name: "TechCrunch",
@@ -762,6 +789,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/technology/2",
       source: {
         id: "polygon",
         name: "Polygon",
@@ -784,6 +812,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/technology/3",
       source: {
         id: null,
         name: "Space.com",
@@ -807,6 +836,7 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
       ],
     },
     {
+      route: "/technology/4",
       source: {
         id: null,
         name: "Gizmodo.com",
