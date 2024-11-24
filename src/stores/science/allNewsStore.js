@@ -17,8 +17,24 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
       urlToImage:
         "https://assets3.thrillist.com/v1/image/3190295/1200x600/crop;;webp=auto;jpeg_quality=85.jpg",
       publishedAt: "2024-11-22T22:22:17Z",
-      content:
-        "A woman was recently out walking her dog in Louisiana when she stumbled upon an animal who needed her help. Lying down next to the path, there was a sick-looking coyote covered in mosquitoes.\r\nGeaux … [+2809 chars]",
+      content: [
+        "A woman was recently out walking her dog in Louisiana when she stumbled upon an animal who needed her help. Lying down next to the path, there was a sick-looking coyote covered in mosquitoes.",
+        "The Good Samaritan drove the coyote an hour and a half to Geaux Wild Rehab so she could get the help she desperately needed.",
+        "“She couldn’t pick her head up,” Tisha Raiford, director of Geaux Wild Rehab, told The Dodo. “She was very weak, very lifeless.”",
+        "Raiford worked with a vet to get the coyote parasite treatments, vital nutrients and medical exams. Even after extensive bloodwork, X-rays and other tests, they couldn’t tell exactly what was bothering her.",
+        "Even though the coyote's condition was still a mystery, Raiford couldn’t bear seeing her so weak. She named her Zelda and resolved to do everything she could to help her recover.",
+        "Every single day, Raiford worked with Zelda to get her back on her feet. She fed her a nutrient-rich diet and did physical therapy exercises as well as cold laser therapy to stimulate her weakened muscles.",
+        `“She had a will to live and she didn’t give up,” Raiford said. “That was what I kept [saying], ‘As long as she doesn’t give up, I will keep fighting with her and for her.'`,
+        "For weeks, Zelda barely moved. Raiford tried to stay hopeful, but wasn’t sure whether Zelda would ever recover.",
+        "Then, about three weeks after Zelda arrived at the rehabilitation center, Raiford started noticing her pushing herself up with her legs. She was trying to stand.",
+        "A few days later, a miracle happened: Zelda stood up and started walking.",
+        "Every day, Zelda was able to walk a little farther, stand up a little longer. Before long, she was getting antsy, pacing around her enclosure. That’s how Raiford knew she was ready to go. Eight weeks after her intake, Raiford decided it was time to set her free.",
+        "Before releasing her, Raiford allowed researchers from The Canid Project to put a comfortable, non-invasive collar on Zelda for a coyote tracking research project. As an added bonus, Raiford will get to keep track of Zelda as she roams her natural environment.",
+        "Raiford invited the woman who first saved Zelda as well as Zelda’s vet to be there for her release as they’d been instrumental to her survival and recovery. It was an incredibly emotional day for all of them, especially Raiford. As she opened Zelda’s kennel, she remembered the journey she’d taken with this strong-willed coyote.",
+        "“I felt tears swelling up in my eyes because I was looking straight at her,” Raiford said. “And you could just see that determination in her eyes.”",
+        "As soon as Zelda stepped back out into nature, she knew just what to do.",
+        "“You could just tell she knew where she was,” Raiford said. “She was back home. And then when she flew out of that kennel, she jumped into the water and swam and took off running … It was perfect.”",
+      ],
     },
     {
       source: {
@@ -34,8 +50,23 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
       urlToImage:
         "https://scx2.b-cdn.net/gfx/news/hires/2024/peaches-spread-across.jpg",
       publishedAt: "2024-11-22T19:24:05Z",
-      content:
-        "Spanish explorers may have brought the first peach pits to North America, but Indigenous communities helped the ubiquitous summer fruit really take root, according to a study led by a researcher at P… [+5921 chars]",
+      content: [
+        "Spanish explorers may have brought the first peach pits to North America, but Indigenous communities helped the ubiquitous summer fruit really take root, according to a study led by a researcher at Penn State.",
+        "The study, published in Nature Communications, shows that Indigenous political and social networks and land use practices played key roles in the peach's adoption and dispersal across the continent, according to the researchers.",
+        '"Peaches need a lot of care by people to be productive. They need to be planted in appropriate places with a lot of sunlight and the right soil drainage, and they need to be pruned," said Jacob Holland-Lulewicz, first author and assistant professor of anthropology at Penn State. "For a long time, the narrative was that the Spanish introduced peaches and then peaches spread very quickly. The reality is way more complicated. How quickly peaches spread is very much a product of Indigenous networks and land management."',
+        "The researchers analyzed historical documents that mentioned peaches, such as the travel writings of French missionary explorer Jacques Marquette and English merchant Jonathan Dickinson.",
+        "They also employed radiocarbon dating—a method that measures the decay of radioactive carbon-14 atoms in organic material—to determine the approximate ages of peach pits and other organic samples, like carbonized tree wood, from 28 archaeological sites and two regional locales where archaeologists previously recovered preserved peach pits. The sites were located in the Carolinas, Georgia, Florida, Alabama, Tennessee and Arkansas.",
+        "The team found that peaches were likely widespread across Indigenous settlements in the interior southeast as early as the year 1620, roughly 100 years after the earliest Spanish expeditions in Florida and in Georgia's Oconee Valley. The timing suggests that early Spanish settlements becoming important trade nodes within existing Indigenous networks created the necessary conditions for the spread of peaches, according to Holland-Lulewicz.",
+        `"Many narratives talk about the Spanish, or Europeans generally, arriving and then you see instantaneous changes to Indigenous histories and the spread of materials, but those initial interactions didn't cause major changes," he said. "It's not until Spanish networks and Indigenous networks become entangled 100 years later that we have the necessary conditions for the spread of peaches."`,
+        "The team also identified what are possibly the earliest peaches in North America at a Muskogean farmstead in the Oconee Valley. In the 1990s, the late Penn State archaeologist James Hatch recovered peach pits from the bottom of post holes that once housed support structures for the farmstead's house.",
+        "The researchers radiocarbon dated charcoal, nuts and corn kernels from these post holes and found that occupation at the site began between 1520 and 1550 and ended between 1530 and 1570. This timing suggests that peaches had spread to the interior southeast possibly decades before the founding of St. Augustine in 1565, according to the researchers.",
+        `"Understanding the path that the introduction of species, such as peach trees, took through colonization and the role that Indigenous people and their long-term relationship with the environment played in shaping these histories demonstrates the importance of these events, people and processes to what becomes a broader American history," said co-author Victor Thompson, Distinguished Research Professor of archaeology at the University of Georgia (UGA) and executive director of the Georgia Museum of Natural History. "Further, the fact that all of this work took place on museum specimens underscores the importance of maintaining these collections for future study."`,
+        "Indigenous peoples not only adopted the peach but selectively bred new varieties outnumbering the varieties found in Europe even at this early time, Holland-Lulewicz said.",
+        '"When Europeans started to move through and into the interior of the continent in the mid- to late 1600s, they noted that there were way more varieties of peaches being grown by Indigenous peoples than there were in Europe," he said, explaining that the fruit had become an important aspect of Indigenous culture.',
+        '"At this time, Europeans are noting really dense peach orchards around Indigenous towns, but some of these towns and people had never previously interacted with or even heard of Europeans. In fact, there are records of Indigenous peoples describing peaches as an Indigenous fruit."',
+        "The fruit had become so integral to Indigenous history and culture that when the ancestors of the modern-day Muscogee (Creek) Nation were forcibly removed from Georgia and Alabama during the 1800s, they took peaches with them.",
+        '"There are Muscogee (Creek) peoples today who grow peaches as heritage crops," Holland-Lulewicz said. "The act of growing and caring for those peaches is an important cultural practice. These were the first peaches introduced in the 1500s and 1600s that were then carried halfway across the continent and continue to be grown today."',
+      ],
     },
     {
       source: {
@@ -51,25 +82,19 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
       urlToImage:
         "https://cdn.mos.cms.futurecdn.net/ocNsmZpK8NZtbMG6xAsnkM-1200-80.jpg",
       publishedAt: "2024-11-22T19:12:59Z",
-      content:
-        "One species of wolf has a bit of a sweet tooth.\r\nStriking new photos show Ethiopian wolves (Canis simensis) feeding on the nectar of Ethiopian red hot poker flowers (Kniphofia foliosa).\r\nThe otherwis… [+2887 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "Neurosciencenews.com",
-      },
-      author: "Neuroscience News",
-      title:
-        "AI Summaries Simplify Science, Boosting Public Understanding and Trust - Neuroscience News",
-      description:
-        "AI-generated summaries make scientific studies more accessible and improve public trust in scientists.",
-      url: "https://neurosciencenews.com/ai-science-communication-trust-28114/",
-      urlToImage:
-        "https://neurosciencenews.com/files/2024/11/ai-aummaries-science-trust-neuroscience.jpg",
-      publishedAt: "2024-11-22T18:52:53Z",
-      content:
-        "Summary: AI-generated summaries make scientific studies more accessible and improve public trust in scientists. Using GPT-4, researchers created simplified summaries that were easier to read and unde… [+6807 chars]",
+      content: [
+        "One species of wolf has a bit of a sweet tooth.",
+        "Striking new photos show Ethiopian wolves (Canis simensis) feeding on the nectar of Ethiopian red hot poker flowers (Kniphofia foliosa).",
+        "Striking new photos show Ethiopian wolves (Canis simensis) feeding on the nectar of Ethiopian red hot poker flowers (Kniphofia foliosa).",
+        `"These findings highlight just how much we still have to learn about one of the world's most-threatened carnivores," study co-author Sandra Lai, an ecologist at the University of Oxford, said in a statement.`,
+        `The Ethiopian red hot poker's red and yellow flowers produce a sweet nectar that attracts a host of pollinators, including insects and birds. During past field studies, researchers had occasionally spotted the wolves licking the flowers too, so they set out to study the behavior more closely.`,
+        "In the new study, published Nov. 19 in the journal Ecology, the researchers followed six Ethiopian wolves from three different packs over four days. While most of the wolves visited only a handful of flowers, one visited 20 and another visited 30 in a single snacking foray.",
+        "When the wolves visited a red hot poker plant, they usually licked the mature lowermost flowers, which contained the most nectar. In doing so, their muzzles became coated with pollen. This could mean the wolves can spread that pollen to other flowers, the researchers wrote in the study.",
+        `However, it's not yet clear whether the wolves are effective pollinators. Nectar isn't a significant part of their diet, so more research is needed to determine how often the wolves visit the flowers. And there isn't evidence yet that a wolf could transfer enough pollen to another flower to pollinate it effectively.`,
+        "Because the flowers attract many species, it's also not clear how important any potential pollination from the wolves is to the flowers' survival. Whether or not they act as pollinators, many other animals have been observed consuming red hot poker nectar as a sweet treat — including humans.",
+        `"I first became aware of the nectar of the Ethiopian red hot poker when I saw children of shepherds in the Bale Mountains licking the flowers," study co-author Claudio Sillero, a conservation biologist at the University of Oxford, said in the statement. "In no time, I had a taste of it myself — the nectar was pleasantly sweet. When I later saw the wolves doing the same, I knew they were enjoying themselves, tapping into this unusual source of energy."`,
+        `Future research will involve determining the role of nectar in the wolves' diet and working out whether the wolves really do act as pollinators, the researchers wrote in the study.`,
+      ],
     },
     {
       source: {
@@ -85,8 +110,12 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
       urlToImage:
         "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/ZI5VZ7TMYVFCROJLCL3KZQVMRQ.JPG?_a=DATAdtfiZAA0",
       publishedAt: "2024-11-22T18:47:02Z",
-      content:
-        "BEXAR COUNTY, Texas A student from Harlan High School was struck by a car late Friday morning while crossing Culebra Road, according to Northside ISD.\r\nThe incident happened at 11:57 a.m. in the 1410… [+478 chars]",
+      content: [
+        "BEXAR COUNTY, Texas – A student from Harlan High School was struck by a car late Friday morning while crossing Culebra Road, according to Northside ISD.",
+        "The incident happened at 11:57 a.m. in the 14100 block of Culebra Road. The student attempted to cross the road outside a designated crosswalk and was hit by a driver, the Bexar County Sheriff’s Office said.",
+        "BCSO confirmed the driver immediately stopped and assisted the student. No charges are expected for the driver.",
+        "Northside ISD stated that EMS transported the student to the hospital for evaluation. No additional details regarding the student’s injuries were available.",
+      ],
     },
     {
       source: {
@@ -102,8 +131,17 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
       urlToImage:
         "https://cdn.mos.cms.futurecdn.net/eY7E2AfqACFRymrBrPypQA-1200-80.jpg",
       publishedAt: "2024-11-22T18:41:46Z",
-      content:
-        "The International Space Station (ISS) is leaking — and major space agencies are divided over what to do about it.\r\nThe leak is located in a Russian segment of the station known as a PrK module, which… [+2695 chars]",
+      content: [
+        "The International Space Station (ISS) is leaking — and major space agencies are divided over what to do about it.",
+        `The leak is located in a Russian segment of the station known as a PrK module, which connects Russia's Zvezda service module to the space station's main body. NASA and Russian space agency Roscosmos have known about the leak since at least 2019, but its underlying cause remains a mystery. Since its discovery, cosmonauts have taken various steps to minimize its impact, including sealing off the segment when it is not in use. But Roscosmos and NASA now disagree about the leak's severity.`,
+        `According to a recent NASA report, the leak has intensified to the point where it poses a risk to the ISS's goal of operating until 2030. What's more, some NASA officials believe it could lead to "a catastrophic failure" of the station, Bob Cabana, the chair of the agency's ISS Advisory Committee, said during a public meeting.`,
+        "However, Russian space officials have downplayed the severity of the leak, insisting that it will not jeopardize future ISS operations, according to CNN.",
+        "The ISS has been continuously occupied since November 2000. Most of its infrastructure is a quarter-century old, and it is possible that years of mechanical stress have caused tiny fissures to form in the walls of certain sections. Additional stress from colliding with small pieces of debris and micrometeors could also have contributed to the perforation.",
+        `NASA and Roscosmos have agreed to seal off the leaky segment if the rate of air loss becomes "untenable." But they have not yet reached a consensus on what, exactly, qualifies as an untenable rate. Currently, air is escaping at a rate of around 2 to 2.5 pounds (0.9 to 1.1 kilograms) per day above the space station's equilibrium, according to NASA. In April, it briefly spiked to 3.7 pounds per day (1.7 kg); if left unchecked, it could spike again.`,
+        'The agencies are reportedly working closely with one another to monitor the situation as it unfolds. And NASA plans to add an extra seat — called a "pallet seat" — aboard future SpaceX Crew Dragon spacecraft in case any astronauts need to evacuate.',
+        '"The station is not young," NASA astronaut Michael Barratt said during a news briefing. "We will expect to see more wear and tear in various other places."',
+        `The space station is expected to operate through to 2030, after which it will be deorbited into Earth's atmosphere for a fiery farewell. NASA currently has no plans to build a replacement for the ISS and instead will focus on crewed missions to the moon and Mars, according to the agency.`,
+      ],
     },
     {
       source: {
@@ -263,6 +301,19 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
     return formattedDate;
   };
 
+  const getNewsItem = (index) => {
+    if (index >= 0 && index < data.value.length) {
+      // Apply formatting and return a copy to avoid mutation
+      return {
+        ...data.value[index],
+        publishedAt: formatDate(data.value[index].publishedAt),
+      };
+    } else {
+      console.error("Invalid index. News item not found.");
+      return null; // Or you can throw an error here
+    }
+  };
+
   return {
     dataFormated: computed(() =>
       data.value.map((item) => ({
@@ -270,5 +321,6 @@ export const useAllNewsStore = defineStore("all-news-science", () => {
         publishedAt: formatDate(item.publishedAt),
       }))
     ),
+    getNewsItem,
   };
 });

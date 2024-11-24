@@ -8,6 +8,7 @@
       :desc="list.description"
       :publish="list.publishedAt"
       :author="list.author"
+      :index="index"
     />
   </section>
 </template>

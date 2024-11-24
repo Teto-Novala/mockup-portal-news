@@ -1345,22 +1345,6 @@ export const useAllNewsStore = defineStore("all-news-home", () => {
     },
     {
       source: {
-        id: null,
-        name: "Endpoints News",
-      },
-      author: "Max Gelman",
-      title:
-        "FDA approves BridgeBio’s heart disease drug, setting up competition with Pfizer, Alnylam - Endpoints News",
-      description:
-        "The FDA approved BridgeBio’s ​​acoramidis in a rare, genetic heart disease that’s expected to become an intense area of market competition, and a broad label will give it a near-immediate boost against the current leader.",
-      url: "https://endpts.com/fda-approves-bridgebios-heart-disease-drug-setting-up-competition-with-pfizer-alnylam/",
-      urlToImage:
-        "https://endpts.com/wp-content/uploads/2023/02/FDA-headquarters-Getty-social.jpg",
-      publishedAt: "2024-11-23T00:15:00Z",
-      content: null,
-    },
-    {
-      source: {
         id: "associated-press",
         name: "Associated Press",
       },
