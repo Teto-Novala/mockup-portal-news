@@ -29,6 +29,11 @@ const router = createRouter({
       name: "science",
       component: () => import("../views/ScienceView.vue"),
     },
+    {
+      path: "/sports",
+      name: "sports",
+      component: () => import("../views/SportsView.vue"),
+    },
   ],
 });
 
