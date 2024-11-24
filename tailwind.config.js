@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         nunito: ["Nunito Sans Variable", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        ibm: ["IBM Plex Serif", "serif"],
       },
     },
   },
