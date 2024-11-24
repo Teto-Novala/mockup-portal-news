@@ -11,7 +11,7 @@
       <p>{{ store.data.description }}</p>
       <div class="flex items-center gap-x-5 text-sm">
         <p>{{ store.formattedPublishedAt }}</p>
-        <p>{{ store.data.author }}</p>
+        <p>by {{ store.data.author }}</p>
       </div>
     </div>
   </section>
