@@ -1,6 +1,6 @@
 <template>
   <nav class="px-8">
-    <ul class="flex items-center justify-between py-2">
+    <ul class="flex items-center justify-between py-2 font-nunito">
       <li>
         <RouterLink to="/">
           <img
