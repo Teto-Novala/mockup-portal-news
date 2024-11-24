@@ -5,11 +5,11 @@
       :alt="altImg"
       class="h-44 object-cover object-center"
     />
-    <div class="px-5 flex flex-col h-full justify-between">
+    <div class="px-5 flex flex-col h-full gap-y-3 justify-between">
       <h1 class="font-bold text-lg truncate">
         {{ title }}
       </h1>
-      <p>
+      <p class="truncate">
         {{ desc }}
       </p>
       <div class="flex items-center gap-x-4 text-xs">
