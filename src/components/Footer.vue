@@ -16,7 +16,7 @@
       <p>Terms of Servicenbcnews.com</p>
       <p>Site Map</p>
     </div>
-    <div class="flex flex-col gap-y-3 items-end">
+    <div class="flex flex-col gap-y-6 items-end">
       <ul class="flex items-center gap-x-3">
         <li>About</li>
         <li>Contact</li>
